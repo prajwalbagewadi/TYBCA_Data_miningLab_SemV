@@ -1,0 +1,17 @@
+conda env commands 
+
+conda create --name <my-env>
+conda env list
+conda activate myenv
+
+(base) PS C:\Users\bagew> conda env list
+# conda environments:
+#
+base                  *  D:\Software_Installed\anaconda
+DataSci                  D:\Software_Installed\anaconda\envs\DataSci
+
+(base) PS C:\Users\bagew> Conda activate DataSci
+
+install R kernel :
+conda install -c r r-irkernel
+conda remove --name ENV_NAME --all
